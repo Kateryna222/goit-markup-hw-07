@@ -402,7 +402,7 @@ align-items: center;
 .feature-list {
   display: flex;
   flex-direction: column;
-  align-items:center
+  align-items:center;
   padding: 0px;
 
 }
@@ -430,7 +430,7 @@ align-items: center;
   }
 
 /* ================= projects ================= */
-
+/* 
 .section-projects {
   padding-top: 0; 
   padding-bottom: 120px;
@@ -453,22 +453,14 @@ align-items: center;
   color: var(--primary-text-color);
   list-style: none;
   width: calc((100% - 48px) / 3);
-}
+} */
 /* ================= /projects ================= */
 
-.team .title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    list-style: none;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-  }
 
 /* =================  our team  ================= */
 
 .section-team {
+  max-width: 428px;
   padding-top: 120px; 
   padding-bottom: 120px;
   background-color: var(--backgound-Team-cloud);
@@ -476,13 +468,15 @@ align-items: center;
 
  .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
   }  
 
-.team-list >.item {
+.team-list-item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
-  width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 } 
 
@@ -491,9 +485,14 @@ align-items: center;
 }
 
 .team-item-content .title {
-  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
+  list-style: none;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  margin-bottom: 8px;
   color: var(--title-text-color);
 }
 
@@ -503,7 +502,18 @@ align-items: center;
   color: var(--primary-text-color);
   margin-bottom: 8px;
 }
- 
+
+
+/* .team .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  list-style: none;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+} */
+
 /* =================  /our team  ================= */
 
 
