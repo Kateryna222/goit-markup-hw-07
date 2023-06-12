@@ -401,26 +401,27 @@ align-items: center;
 
 .feature-list {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items:center
   padding: 0px;
-  gap: 24px;
+
 }
 
 
 .feature-list-item {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 
 }
 
 .feature-list-item-icon {
-  display: flex;
-  align-items: center;
+  display: none;
+  /* align-items: center;
   justify-content: center; 
   height: 112px;
   background-color: var(--backgound-Team-cloud);
   border-radius: 4px;
   margin-bottom: 8px; 
-  } 
+  }  */
 
 .feature-list .text {
   
