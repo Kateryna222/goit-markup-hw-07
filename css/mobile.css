@@ -577,21 +577,20 @@ align-items: center;
 
 
 .section-customers {
-  display: none;
-}
-  /* padding-top: 120px; 
+ padding-top: 120px; 
   padding-bottom: 120px;
 }
 
   .customers-list {
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  gap: 16px;
   list-style: none;
 
   }
 
 .customers-list-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 32px) / 2);
   height: 88px;
   }
 
