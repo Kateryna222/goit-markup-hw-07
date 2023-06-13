@@ -721,7 +721,7 @@ overflow: hidden;
 /* =================  footer  ================= */
 
 .footer {
-  align-items: center;
+  justify-items: center;
 
 }
   .footer-container {
@@ -745,6 +745,14 @@ overflow: hidden;
     margin-bottom: 72px;
   }
   
+  
+.footer-subscribe {
+  margin-left: 0;
+}
+
+.footer-subscribe-form-input {
+  width: 100%;
+}
 /* .footer {
   padding-top: 100px; 
   padding-bottom: 100px;
@@ -757,7 +765,7 @@ overflow: hidden;
   display: flex; 
   align-items: baseline;
 
-}
+} 
 
 .footer-logo-media {
   margin-right: 120px;
@@ -816,9 +824,6 @@ overflow: hidden;
   background-color: var(--click-color); 
 }
 
-.footer-subscribe {
-  margin-left: 88px;
-}
 
 .footer-subscribe-text {
 
@@ -832,7 +837,7 @@ overflow: hidden;
   gap: 24px;
 }
 
-.footer-subscribe-form-input {
+.footer-subscribe-form-input. {
   width: 264px;
   height: 100%;
   border: 1px solid var(--primary-white-color);
